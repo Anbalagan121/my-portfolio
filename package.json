@@ -1,19 +1,28 @@
 {
   "name": "anbu_portfolio",
   "version": "1.0.0",
+  "description": "Anbu's portfolio website",
   "main": "index.js",
+  "author": "Anbu",
+  "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
-    "tailwindcss": "^4.1.7"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21"
   }
 }
