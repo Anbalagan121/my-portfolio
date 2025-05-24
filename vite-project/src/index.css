@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 html,
 body {
@@ -10,6 +13,7 @@ body {
 }
 
 @layer utilities {
+
   @keyframes blink {
     0% {
       opacity: 1;
@@ -18,28 +22,30 @@ body {
     50% {
       opacity: 0;
     }
+
+    100% {
+      opacity: 1;
+    }
   }
 
-  .amimate-blink {
-    animation: loading 0.8s step-end infinite;
-  }
-}
-
-
-
-
-@keyframes loading {
-  0% {
-    transform: translatex(-100);
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
   }
 
-  100% {
-    transform: translatex(250%)
-  }
-}
 
-.amimate-loading-bar {
-  animation: loading 0.8sease infinits;
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
 }
 
 .reveal {
