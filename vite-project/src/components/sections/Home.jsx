@@ -8,8 +8,6 @@ export const Home = () => {
         >
             <RevealOnScroll>
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:justify-between">
-
-
                     <div className="md:w-1/2 text-center md:text-left">
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-pink-700 bg-clip-text text-transparent leading-tight">
                             Hi, I'm Anbu Tech
@@ -17,7 +15,6 @@ export const Home = () => {
                         <p className="text-gray-400 text-lg mb-8">
                             I'm a Python Full-stack Developer passionate about building clean, scalable, and efficient web applications. I focus on performance, user experience, and elegant design.
                         </p>
-
 
                         <div className="flex flex-wrap justify-center md:justify-start gap-4">
                             <a
@@ -33,8 +30,8 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="/resume.pdf"
-                                download
+                                href="assets/resume.pdf"
+                                download="resume.pdf"
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
                             >
                                 Download Resume
@@ -42,11 +39,10 @@ export const Home = () => {
                         </div>
                     </div>
 
-
                     <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
                         <div className="w-52 h-52 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
                             <img
-                                src="/profile.png"
+                                src="public/profile.png"
                                 alt="Anbu Tech"
                                 className="w-full h-full object-cover"
                             />
