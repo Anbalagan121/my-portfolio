@@ -30,7 +30,7 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="assets/ resume.pdf"  // Correct path for the resume
+                                href="Anbu resume.pdf"  // Correct path for the resume
                                 download="assets/resume.pdf"
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
                             >
