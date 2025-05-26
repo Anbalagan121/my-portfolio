@@ -30,7 +30,7 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="assets/resume.pdf"  // Correct path for the resume
+                                href=".assets/ resume.pdf"  // Correct path for the resume
                                 download="resume.pdf"
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
                             >
@@ -42,7 +42,7 @@ export const Home = () => {
                     <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
                         <div className="w-52 h-52 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
                             <img
-                                src="public/profile.png"  // Correct path for the profile image
+                                src="profile.png"  // Correct path for the profile image
                                 alt="Anbu Tech"
                                 className="w-full h-full object-cover"
                             />
