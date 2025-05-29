@@ -30,8 +30,8 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="Anbu resume.pdf"  // Correct path for the resume
-                                download="assets/resume.pdf"
+                                href="first resume(1).pdf"
+                                download="first resume(1).pdf"
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
                             >
                                 Download Resume
@@ -50,6 +50,6 @@ export const Home = () => {
                     </div>
                 </div>
             </RevealOnScroll>
-        </section>
+        </section >
     );
 };
