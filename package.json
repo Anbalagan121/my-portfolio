@@ -1,5 +1,6 @@
 {
     "name": "anbu_portfolio",
+    "homepage": "https://anbalagan121.github.io/my-portfolio/",
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",
