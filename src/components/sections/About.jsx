@@ -70,6 +70,15 @@ export const About = () => {
                             <div className="space-y-4 text-gray-300 text-sm">
                                 <div>
                                     <h4 className="font-semibold text-lg text-white">FullStack – E-Commerce Website</h4>
+                                    <strong>GitHub Repository</strong> —{" "}
+                                    <a
+                                        href="https://github.com/Anbalagan121/Fullstack-Ecommerce"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-400 underline hover:text-blue-300"
+                                    >
+                                        View Repo
+                                    </a>
                                     <ul className="list-disc list-inside space-y-1 mt-2">
                                         <li><strong>Stack:</strong> Python, Django, MySQL, HTML, CSS, Bootstrap 5</li>
                                         <li>Developed a full-stack e-commerce website with category-wise product listing.</li>

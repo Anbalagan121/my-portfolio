@@ -12,7 +12,7 @@ export const Home = () => {
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:justify-between">
                     <div className="md:w-1/2 text-center md:text-left">
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-pink-700 bg-clip-text text-transparent leading-tight">
-                            Hi, I'm Anbu Tech
+                            Hi, I'm Anbalagan
                         </h1>
                         <p className="text-gray-400 text-lg mb-8">
                             I'm a Python Full-stack Developer passionate about building clean, scalable, and efficient web applications. I focus on performance, user experience, and elegant design.
@@ -32,7 +32,7 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="https://drive.google.com/uc?export=download&id=1SzuIMt4xq06VrzTMFTbtrHSuACxlrrY2"
+                                href="https://drive.google.com/file/d/1oS4uT5KHZOriwxUszsl03t3YC7GgohiO/view?usp=drivesdk"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
